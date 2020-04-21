@@ -8,38 +8,11 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-<!--    <CheckBox-->
-<!--        android:id="@+id/checkbox"-->
-<!--        android:text="Android"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"/>-->
-<!--    <CheckBox-->
-<!--        android:text="ios"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"/>-->
-<!--    <CheckBox-->
-<!--        android:text="php"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"/>-->
-    <RadioGroup
-        android:id="@+id/radioGroup"
+    <CheckBox
+        android:paddingLeft="10dp"
+        android:button="@drawable/bg_checkbox"
+        android:text="Android"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-        <RadioButton
-            android:text="Android"
-            android:id="@+id/radioAndroid"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-        <RadioButton
-            android:id="@+id/radioJavascript"
-            android:text="Javascript"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-        <RadioButton
-            android:id="@+id/radioReacttnatie"
-            android:text="React native"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-    </RadioGroup>
+        android:layout_height="wrap_content"/>
 
 </LinearLayout>
